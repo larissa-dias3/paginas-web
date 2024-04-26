@@ -3,7 +3,8 @@ body {
 }
 
 #container {
-    margin:50px 100px;/* insere margin externa*/
+    width: 500px;
+    margin:50px auto;/* insere margin externa*/
     border:2px solid gray;/* insere borda na caixa*/
     padding: 25px; /* insere margin interna*/
     border-radius: 10px; /* arredonda canto da borda*/
@@ -14,10 +15,11 @@ img {
    border-radius: 95px;
    width: 85px;
 }
-nav{  /* h1 e img*/
-    float:left; 
-    background-color: tomato;
-    float:left;
+nav{  /* h1 e img*/ 
+    display: flex;
+    align-items:center;
+    gap: 15px; /*margin*/
+
 }
 .nanum-gothic-regular { /* fonte*/
     font-family: "Nanum Gothic", sans-serif;
@@ -27,8 +29,9 @@ nav{  /* h1 e img*/
 #nome{
     position:relative;
 }
-#dados{
-    float:right;
+label{
+    display: block;
 }
+
 
 
